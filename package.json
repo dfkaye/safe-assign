@@ -1,11 +1,11 @@
 {
   "name": "safe-object-assign",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Make Object.assign() safer for values and objects.",
   "main": "safe-assign.js",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha test/node.js"
+    "test": "node node_modules/mocha/bin/mocha test/node-suite.js"
   },
   "repository": {
     "type": "git",

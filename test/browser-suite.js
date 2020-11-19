@@ -1,36 +1,19 @@
 /*
- * This suite is run with mocha and uses chai expect.
- * Run this suite from wheredoc root using:
+ * This suite is meant to be run in browsers over the network, with mocha and
+ * uses chai assert. Suite uses import syntax.
  * 
- *    npm test
- * 
- * Suite uses import syntax. Dependencies can be required or imported per the
- * steps outlined next.
+ * See my blog pasts
+ * + about this library: https://dfkaye.com/posts/2020/08/21/safer-object.assign-operations-using-a-sensible-wrapper/
+ * + live demo running this suite: https://dfkaye.com/demos/safe-assign-test-suite/
  */
 
-/*
- * To import a commonJS module (in this case, chai.js):
- *  - import createRequire from 'module'
- *  - declare require = createRequire(import.meta.url);
- *  - require the module via its filepath, including extension.
- *  - use destructuring assignment after module is loaded.
- */
-import { createRequire } from 'module';
-let require = createRequire(import.meta.url);
-let chai = require("chai");
-let { assert } = chai;
-
-/*
- * To import an ES6 module (in this case, where.js):
- *  - use dynamic import() function
- *  - import the module via its filepath, including extension
- *  - use top-level await import(module_filepath)
- *  - use destructuring assignment in one step, not after.
- */
 /* Safe assign: a sensible wrapper for Object.assign(). */
-import { assign } from "./safe-assign.js";
+import { assign } from "../safe-assign.js";
 
 describe("safe-assign vs. Object.assign", function () {
+
+  var { assert } = chai;
+
   describe("Similarities of each", () => {
     it("assigns array onto object", () => {
       var unsafe = Object.assign({}, ['world']);
