@@ -1,5 +1,5 @@
 {
-  "name": "@dfkaye/safe-assign",
+  "name": "safe-object-assign",
   "type": "module",
   "version": "0.0.1",
   "description": "Make Object.assign() safer for values and objects.",
