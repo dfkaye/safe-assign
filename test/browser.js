@@ -1,32 +1,8 @@
 /*
- * This suite is run with mocha and uses chai expect.
- * Run this suite from wheredoc root using:
- * 
- *    npm test
- * 
- * Suite uses import syntax. Dependencies can be required or imported per the
- * steps outlined next.
+ * This suite is meant to be run in browsers over the network, with mocha and
+ * uses chai assert. Suite uses import syntax.
  */
 
-/*
- * To import a commonJS module (in this case, chai.js):
- *  - import createRequire from 'module'
- *  - declare require = createRequire(import.meta.url);
- *  - require the module via its filepath, including extension.
- *  - use destructuring assignment after module is loaded.
- */
-import { createRequire } from 'module';
-let require = createRequire(import.meta.url);
-let chai = require("chai");
-let { assert } = chai;
-
-/*
- * To import an ES6 module (in this case, where.js):
- *  - use dynamic import() function
- *  - import the module via its filepath, including extension
- *  - use top-level await import(module_filepath)
- *  - use destructuring assignment in one step, not after.
- */
 /* Safe assign: a sensible wrapper for Object.assign(). */
 import { assign } from "../safe-assign.js";
 
