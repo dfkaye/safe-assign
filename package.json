@@ -1,0 +1,28 @@
+{
+  "name": "@dfkaye/safe-assign",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Make Object.assign() safer for values and objects.",
+  "main": "safe-assign.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfkaye/safe-assign.git"
+  },
+  "keywords": [
+    "object.assign",
+    "safe-assign"
+  ],
+  "author": "dfkaye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfkaye/safe-assign/issues"
+  },
+  "homepage": "https://github.com/dfkaye/safe-assign#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
