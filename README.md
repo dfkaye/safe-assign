@@ -1,4 +1,4 @@
-# safe-assign
+# safe-object-assign
 
 Sensible wrapper for `Object.assign()`.
 
@@ -19,6 +19,8 @@ See full details on my blog post at https://dfkaye.com/posts/2020/08/21/safer-ob
 
 `npm install safe-object-assign`
 
+**OR**
+
 `git clone https://github.com/dfkaye/safer-object-assign.git`
 
 ## Test
@@ -30,4 +32,4 @@ Run: `npm test`
 **OR**
 
 Visit the live demo running the browser test suite on my blog:
-https://dfkaye.com/demos/safe-assign-test-suite/
+https://dfkaye.com/demos/safe-assign-test-suite/.
