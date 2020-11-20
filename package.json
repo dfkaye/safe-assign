@@ -1,7 +1,7 @@
 {
   "name": "safe-object-assign",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Make Object.assign() safer for values and objects.",
   "main": "safe-assign.js",
   "scripts": {
