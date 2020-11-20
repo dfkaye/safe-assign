@@ -9,8 +9,6 @@
 
 /* Safe assign: a sensible wrapper for Object.assign(). */
 import { assign } from "../safe-assign.js";
-import chai from "../node_modules/chai/chai.js";
-// import chai from "chai";
 
 describe("safe-assign vs. Object.assign", function () {
 
