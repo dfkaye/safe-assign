@@ -1,6 +1,6 @@
 /*
  * This suite is meant to be run in browsers over the network, with mocha and
- * uses chai assert. Suite uses import syntax.
+ * chai loaded globally. Suite uses import syntax.
  * 
  * See my blog pasts
  * + about this library: https://dfkaye.com/posts/2020/08/21/safer-object.assign-operations-using-a-sensible-wrapper/
