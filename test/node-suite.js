@@ -1,6 +1,6 @@
 /*
- * This suite is run with mocha and uses chai expect.
- * Run this suite from wheredoc root using:
+ * This suite is run with mocha using chai. Run this suite from package root
+ * using:
  * 
  *    npm test
  * 
